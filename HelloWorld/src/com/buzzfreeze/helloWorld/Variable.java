@@ -17,6 +17,6 @@ public class Variable {
     	 System.out.println("isSingle value: " + isSingle);
     	 System.out.println("greeting value: " + greeting);
     	 System.out.println("firstNumber value: " + firstNumber);
-    	 System.out.println("secongNumber value: " + secondNumber);
+    	 System.out.println("secondNumber value: " + secondNumber);
      }
 }
