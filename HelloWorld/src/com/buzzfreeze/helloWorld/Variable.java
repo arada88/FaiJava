@@ -13,10 +13,10 @@ public class Variable {
     	 float firstNumber = 2.42f;
     	 double secondNumber = 102.34d;
     	 
-    	 System.out.println("mylnt value: " + mylnt);
-    	 System.out.println("isSingle value: " + isSingle);
-    	 System.out.println("greeting value: " + greeting);
-    	 System.out.println("firstNumber value: " + firstNumber);
-    	 System.out.println("secondNumber value: " + secondNumber);
+    	 System.out.println("This is an int " + mylnt);
+    	 System.out.println("This is a boolean " + isSingle);
+    	 System.out.println("This is a String " + greeting);
+    	 System.out.println("This is a float " + firstNumber);
+    	 System.out.println("This is a double " + secondNumber);
      }
 }
