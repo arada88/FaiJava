@@ -54,7 +54,22 @@ public class loop {
 			   break;
 		   System.out.println("count :" + count);
 	   } 
+	   
+	   //lab9.1
+	   for(int Count =0; Count <=20; Count++) {
+		   if(Count ==11)
+			   continue;
+		   System.out.println("Count :" + Count);
+	   
+	   }
 	 
+	   //lab9.2
+	   for(int x =0; x <=10; x++) {
+		   if(x==2)
+			   continue;
+		   System.out.println("x :" + x);
+	   }
+	   
    }
    
 }
