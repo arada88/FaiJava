@@ -8,18 +8,10 @@ public class Employee {
 	public String position;
 
 	public static void main(String[] args) {
-		Employee[] employees = new Employee[3];
-		for (int i = 0;i< employees.length; i++) {
-			employees[i] = new Employee("First Name " + i,"Last Name " + i,10000* i,"Position " + i);
-		}
-	    System.out.println(employees[1].firstname);
-	    System.out.println(employees[2].firstname);
-	    System.out.println(employees[1].salary);
-	    System.out.println(employees[0].position);
+		Employee em1 = new Employee("Krissada", "Chalermsook", 10000,"CEO");
+		em1.checkPosition();
 	}
-	public static void test() {
-		System.out.println("This is staticmethod");
-	}
+	
 	
 	public Employee( String firstnameInput, String lastnameInput, int salaryInput,String positionInput ) {
 	firstname = firstnameInput;
@@ -32,6 +24,10 @@ public class Employee {
 	}
 	public int getSalary() {
 	return salary;
+	}
+	
+	public void checkPosition() {
+		System.out.println("My Position is " + position);
 	}
 	}
 
